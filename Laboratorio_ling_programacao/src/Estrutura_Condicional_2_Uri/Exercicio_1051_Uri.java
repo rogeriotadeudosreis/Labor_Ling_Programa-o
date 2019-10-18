@@ -19,18 +19,22 @@ public class Exercicio_1051_Uri {
 		if (salario <= 2000) {
 			imposto = 0;
 
-		} else if (salario > 2000 && salario <= 3000) { // aqui o contribuinte paga 8% de imposto sobre a diferença
+		}
+		else if (salario > 2000 && salario <= 3000) { // aqui o contribuinte paga 8% de imposto sobre a diferença
 			diferença = (salario - 2000);
-			imposto = diferença * aliquota1;
-		} else if (salario > 3000 && salario <= 4500) {// aqui ele paga 8 % nos primeiros 1000,00 + 18% de imposto sobre
+			imposto = diferença * aliquota1;//8%
+					}
+		else if (salario > 3000 && salario <= 4500) {// aqui ele paga 8 % nos primeiros 1000,00 + 18% de imposto sobre
 														// a diferença
-			imposto = 1000 * aliquota1;
+			imposto = 1000 * aliquota1;//8%
 			diferença = (salario - 3000);
-			imposto = imposto + (diferença * aliquota2);
+			imposto = imposto + (diferença * aliquota2);//18%
 
-		} else {
+		}
+		else {
+			
 			imposto = (1000 * aliquota1) + (1500 * aliquota2); // aqui ele paga 8% nos primeiros 1000,00, 18% sobre
-																// 1500,00 + 28 sobre diferença
+			 										// 1500,00 + 28 sobre diferença
 			diferença = salario - 4500;
 			imposto = imposto + (diferença * aliquota3);
 		}
