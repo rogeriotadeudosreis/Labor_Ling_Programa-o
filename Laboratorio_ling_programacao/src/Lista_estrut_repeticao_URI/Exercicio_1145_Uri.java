@@ -12,20 +12,15 @@ public class Exercicio_1145_Uri {
 		x = teclado.nextInt();
 		y = teclado.nextInt();
 
-		if (x > 1 && x < 20 && y > x && y < 100000) {
+		for (int i = 1; i <= y; i++) {
+			System.out.print(i);
 
-			for (int i = 1; i < y; ) {
+			if (i % x == 0)System.out.println("");
+
 				
-				for (int j = 0; j < x; j++) {
-					
-					System.out.printf("%d ", i);
-					i++;
-				}
-				System.out.println();
-			}
-			
-			
+			else System.out.print(" ");
 		}
+
 		teclado.close();
 	}
 }
