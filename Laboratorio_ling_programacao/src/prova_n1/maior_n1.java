@@ -11,9 +11,11 @@ public class maior_n1 {
 		int A, B, C;
 		int maior = 0;
 		// int maior_C = 0;
-
+		System.out.printf("Digite o valor de A:");
 		A = teclado.nextInt();
+		System.out.printf("Digite o valor de B:");
 		B = teclado.nextInt();
+		System.out.printf("Digite o valor de C:");
 		C = teclado.nextInt();
 
 		maior = (A + B + Math.abs(A - B)) / 2;

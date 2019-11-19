@@ -10,7 +10,8 @@ public class Exercicio_1094_Uri {
 		int n = 10, somaCobaia = 0, qtdeCobaia = 0, qtdeCoelhos = 0, qtdeRatos = 0, qtdeSapos = 0;
 		char tipo;
 		double percCoelho = 0, percRato = 0, percSapo = 0;
-
+		
+		System.out.printf("Digite o valor de n:");
 		n = teclado.nextInt();
 
 		for (int i = 0; i < n; i++) {

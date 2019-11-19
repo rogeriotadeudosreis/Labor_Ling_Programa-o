@@ -11,6 +11,7 @@ public class aumento_salario_n1 {
 		double reajuste = 0;
 		double percentual = 0;
 
+		System.out.printf("Digite o salário:");
 		salario = teclado.nextDouble();
 
 		if (salario > 0.00 && salario <= 400.00) {

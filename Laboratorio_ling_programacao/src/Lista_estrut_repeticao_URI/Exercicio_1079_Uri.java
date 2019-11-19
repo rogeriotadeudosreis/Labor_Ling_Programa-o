@@ -18,6 +18,7 @@ public class Exercicio_1079_Uri {
 		for (int i = 0; i < n; i++) {
 
 			for (int j = 0; j < quantNota; j++) {
+				System.out.printf("Digite a nota:");
 				nota = teclado.nextDouble();
 				media1 = nota * peso1;
 				for (int j2 = 0; j2 < quantNota; j2++) {

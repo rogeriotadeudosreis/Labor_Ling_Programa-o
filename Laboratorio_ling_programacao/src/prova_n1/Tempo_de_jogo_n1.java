@@ -13,7 +13,9 @@ public class Tempo_de_jogo_n1 {
 		int horafinal;
 		int duracao = 0;
 
+		System.out.printf("Digite o horário de início do jogo:");
 		horainicial = teclado.nextInt();
+		System.out.printf("Digite o horário de término do jogo:");
 		horafinal = teclado.nextInt();
 
 		duracao = horafinal - horainicial;

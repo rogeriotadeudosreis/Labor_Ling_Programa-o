@@ -12,7 +12,7 @@ public class Exercicio_1064_repeticao {
 		double media = 0, soma = 0, valor;
 
 		for (int i = 0; i < n; i++) {
-
+			System.out.printf("Digite um valor:");
 			valor = imput.nextDouble();
 			if (valor > 0) {
 				cont++;

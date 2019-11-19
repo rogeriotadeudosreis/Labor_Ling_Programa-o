@@ -10,7 +10,7 @@ public class Exercicio_1060_Uri_numeros_positivos {
 		double numero;
 
 		for (i = 0; i < 6; i++) {
-
+			System.out.printf("Digite um número:");
 			numero = teclado.nextDouble();
 			do {
 				if (numero == 0) {

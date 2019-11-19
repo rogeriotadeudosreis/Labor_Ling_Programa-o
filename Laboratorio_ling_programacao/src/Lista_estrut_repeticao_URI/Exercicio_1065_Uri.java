@@ -13,6 +13,7 @@ public class Exercicio_1065_Uri {
 		int valor;
 
 		for (int i = 0; i < n; i++) {
+			System.out.printf("Digite o valor de n:");
 			valor = teclado.nextInt();
 			if (valor % 2 == 0) {
 				cont++;

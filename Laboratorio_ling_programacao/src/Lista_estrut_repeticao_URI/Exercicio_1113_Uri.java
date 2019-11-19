@@ -10,7 +10,9 @@ public class Exercicio_1113_Uri {
 		int x, y;
 
 		do {
+			System.out.printf("Digite o valor de x:");
 			x = teclado.nextInt();
+			System.out.printf("Digite o valor de y:");
 			y = teclado.nextInt();
 
 			if (x > y) {

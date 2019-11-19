@@ -8,7 +8,7 @@ public class Exercicio_1078_Uri {
 		Scanner teclado = new Scanner(System.in);
 
 		int n, tabuada = 0;
-
+		System.out.printf("Digite o valor de n:");
 		n = teclado.nextInt();
 
 		for (int i = 1; i <= 10; i++) {

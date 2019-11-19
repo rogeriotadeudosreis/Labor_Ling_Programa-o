@@ -11,6 +11,7 @@ public class Exercicio_1114_Uri {
 		int senhaInformada;
 
 		do {
+			System.out.printf("Informe sua senha:");
 			senhaInformada = teclado.nextInt();
 			if (senhaInformada != senhaSistema) {
 				System.out.println("Senha Invalida");

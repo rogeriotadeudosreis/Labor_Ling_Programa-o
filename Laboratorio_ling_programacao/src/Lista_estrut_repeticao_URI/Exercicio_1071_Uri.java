@@ -8,8 +8,9 @@ public class Exercicio_1071_Uri {
 		Scanner teclado = new Scanner(System.in);
 		int x, y;
 		int soma = 0;
-
+		System.out.printf("Digite o valor de x:");
 		x = teclado.nextInt();
+		System.out.printf("Digite o valor de y:");
 		y = teclado.nextInt();
 
 		if (x < y) {

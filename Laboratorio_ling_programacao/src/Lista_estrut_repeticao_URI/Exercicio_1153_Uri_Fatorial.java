@@ -8,6 +8,7 @@ public class Exercicio_1153_Uri_Fatorial {
 		Scanner teclado = new Scanner(System.in);
 
 		int n, fatorial = 0, aux = 0;
+		System.out.printf("Digite o valor de n:");
 
 		n = teclado.nextInt();
 		aux = n;
